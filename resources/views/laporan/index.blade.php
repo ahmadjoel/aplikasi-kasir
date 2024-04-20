@@ -30,7 +30,7 @@
                                 </div>
                                 <div class="col-md-4">
                                     <div class="form-group">
-                                        <button type="submit" class="btn btn-sm btn-success"><i class="fa fa-search"></i> Cari</button>
+                                        <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-search"></i> Cari</button>
                                     </div>
                                 </div>
                             </div>

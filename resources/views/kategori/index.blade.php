@@ -15,7 +15,7 @@
                     <div class="card-header bg-white">
                         <h4 class="text-primary">Data Kategori</h4>
                         <div class="card-header-form float-right">
-                            <button type="button" class="btn btn-sm btn-outline-success" data-toggle="modal" data-target="#form-tambah"><i class="fa fa-plus"></i> Tambah</button>
+                            <button type="button" class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#form-tambah"><i class="fa fa-plus"></i> Tambah</button>
                         </div>
                     </div>
                     <div class="card-body p-2">

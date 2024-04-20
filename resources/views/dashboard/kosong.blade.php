@@ -27,7 +27,7 @@
                                         <td>{{$loop->iteration}}</td>
                                         <td>{{$item->kode}}</td>
                                         <td>{{$item->nama}}</td>
-                                        <td><a href="/{{auth()->user()->level}}/barang/{{$item->id}}/edit" class="btn btn-sm btn-info"><i class="fa fa-eye"></i> Detail</a></td>
+                                        <td><a href="/{{auth()->user()->level}}/barang/{{$item->id}}/edit" class="btn btn-sm btn-primary"><i class="fa fa-eye"></i> Detail</a></td>
                                     </tr>
                                     @endforeach
                                 </tbody>

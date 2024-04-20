@@ -36,11 +36,11 @@
                             </div>
                             <div class="col-md-7">
                                 <div class="form-group float-right">
-                                    <label class="text-info" for="Total Belanja">Subtotal</label>
+                                    <label class="text-primary" for="Total Belanja">Subtotal</label>
                                     <div class="input-group-prepend">
-                                        <h1 class="text-info mr-2">Rp<br></h1>
+                                        <h1 class="text-primary mr-2">Rp<br></h1>
                                         <input class="d-none" type="text" id="total" value="0" name="total">
-                                        <h1 class="text-info" id="label-total">0</h1>
+                                        <h1 class="text-primary" id="label-total">0</h1>
                                     </div>
                                 </div>
                             </div>

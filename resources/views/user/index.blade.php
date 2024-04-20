@@ -15,7 +15,7 @@
                     <div class="card-header bg-white">
                         <h4 class="position-absolute text-primary">Data User</h4>
                         <div class="card-header-form float-right">
-                            <button type="button" class="btn btn-sm btn-outline-success" data-toggle="modal"
+                            <button type="button" class="btn btn-sm btn-outline-primary" data-toggle="modal"
                                 data-target="#form-tambah"><i class="fa fa-plus"></i> Tambah</button>
                         </div>
                     </div>
@@ -39,7 +39,7 @@
                                     <td>{{$item->nama}}</td>
                                     <td>{{$item->email}}</td>
                                     @if($item->level == 'admin')
-                                    <td><div class="badge badge-success">Admin</div></td>
+                                    <td><div class="badge badge-primary">Admin</div></td>
                                     @elseif($item->level == 'kasir')
                                     <td><div class="badge badge-info">Kasir</div></td>
                                     @endif

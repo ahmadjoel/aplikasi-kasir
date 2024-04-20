@@ -34,7 +34,7 @@
 <body onload="hitungTotal()">
   <div id="app">
     <div class="main-wrapper main-wrapper-1">
-      <div class="navbar-bg bg-info"></div>
+      <div class="navbar-bg bg-primary"></div>
       @include('layout.navbar')
       @include('layout.sidebar')
 

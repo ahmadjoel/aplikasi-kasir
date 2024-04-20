@@ -17,7 +17,7 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                 <div class="card card-statistic-1">
-                    <div class="card-icon bg-info">
+                    <div class="card-icon bg-primary">
                         <i class="fas fa-box"></i>
                     </div>
                     <div class="card-wrap">
@@ -32,7 +32,7 @@
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                 <div class="card card-statistic-1" id="stokCard">
-                    <div class="card-icon bg-info">
+                    <div class="card-icon bg-primary">
                         <i class="fas fa-boxes"></i>
                     </div>
                     <div class="card-wrap">
@@ -48,7 +48,7 @@
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                 <div class="card card-statistic-1">
-                    <div class="card-icon bg-info">
+                    <div class="card-icon bg-primary">
                         <i class="fas fa-chart-bar"></i>
                     </div>
                     <div class="card-wrap">
@@ -63,7 +63,7 @@
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                 <div class="card card-statistic-1">
-                    <div class="card-icon bg-info">
+                    <div class="card-icon bg-primary">
                         <i class="fas fa-shopping-cart"></i>
                     </div>
                     <div class="card-wrap">
@@ -80,7 +80,7 @@
             <div class="col-md-12">
                 <div class="card shadow mb-4">
                     <div class="card-header bg-white">
-                        <h4 class="text-info">Detail Transaksi</h4>
+                        <h4 class="text-primary">Detail Transaksi</h4>
                     </div>
                     <div class="card-body p-2">
                         <table class="table table-hover" id="table">

@@ -3,7 +3,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title text-info" id="exampleModalLabel">Data Barang</h5>
+                <h5 class="modal-title text-primary" id="exampleModalLabel">Data Barang</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -48,11 +48,11 @@
                                             <td>{{$item->diskon}}%<input class="form-control" type="text"
                                                     value="{{$item->diskon}}" name="diskon" hidden></td>
                                             @if($item->stok <= 0)
-                                            <td><button type="submit" id="tambah" class="btn btn-sm btn-success" disabled><i
+                                            <td><button type="submit" id="tambah" class="btn btn-sm btn-primary" disabled><i
                                                         class="fa fa-plus"></i></button></td>
                                             @endif
                                             @if($item->stok > 0)
-                                            <td><button type="submit" id="tambah" class="btn btn-sm btn-success"><i
+                                            <td><button type="submit" id="tambah" class="btn btn-sm btn-primary"><i
                                                         class="fa fa-plus"></i></button></td>
                                             @endif
                                         </form>

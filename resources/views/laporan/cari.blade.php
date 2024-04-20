@@ -15,7 +15,7 @@
     <div class="section-body">
         <div class="row">
             <div class="col-12">
-                <div class="alert alert-success">
+                <div class="alert alert-primary">
                     <p><span class="font-weight-bold">Laporan Tanggal: {{$dari}} Sampai {{$sampai}}</span></p>
                 </div>
                 <div class="card shadow">
@@ -38,7 +38,7 @@
                                 </div>
                                 <div class="col-md-4">
                                     <div class="form-group">
-                                        <button type="submit" class="btn btn-sm btn-success"><i
+                                        <button type="submit" class="btn btn-sm btn-primary"><i
                                                 class="fa fa-search"></i> Cari</button>
                                         <a href="/{{auth()->user()->level}}/laporan/{{$dari}}/{{$sampai}}/print" class="btn btn-sm btn-danger" target="_blank"><i
                                                 class="fa fa-print"></i> Print</a>
